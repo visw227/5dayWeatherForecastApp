@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#e0e0e0"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_300sdp"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_30sdp"
+        android:gravity="center"
+        >
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:id="@+id/sp_country"
+            android:background="@drawable/selector_spinner"
+            android:entries="@array/array_countries"
+            ></Spinner>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:id="@+id/ed_zip_code"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:hint="ENTER ZIP CODE"
+            android:textColor="#000000"
+            android:inputType="text"
+            android:textColorHint="#000000"
+            android:paddingLeft="@dimen/_10sdp"
+            android:background="@drawable/list_background"
+            />
+        <Button
+            android:layout_width="@dimen/_130sdp"
+            android:layout_height="wrap_content"
+            android:text="Update data"
+            android:background="@drawable/list_backgroundsec"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:id="@+id/btn_add"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

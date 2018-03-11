@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_50sdp"
+    android:weightSum="3"
+    android:id="@+id/ln_row_layout"
+    android:layout_marginTop="@dimen/_2sdp"
+    android:background="@drawable/list_background"
+    >
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.2"
+        android:text="Country"
+        android:textSize="@dimen/_15sdp"
+        android:gravity="center"
+        android:id="@+id/tv_country"
+        android:textColor="#000000"
+        android:paddingLeft="@dimen/_2sdp"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="ZIPCODE"
+        android:textSize="@dimen/_15sdp"
+        android:gravity="center"
+        android:id="@+id/tv_zipcode"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="TEMPERATURE"
+        android:textSize="@dimen/_15sdp"
+        android:gravity="center"
+        android:id="@+id/tv_teperature"
+        android:textColor="#000000"
+        />
+</LinearLayout>

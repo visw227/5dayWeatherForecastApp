@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+        <item
+            android:id="@+id/add_location"
+            android:icon="@drawable/add_location"
+            android:title="ADD LOCATION" />
+        <item
+            android:id="@+id/show_location"
+            android:icon="@drawable/showlocation"
+            android:title="SHOW LOCATION" />
+
+</menu>
